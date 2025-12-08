@@ -1,4 +1,4 @@
-const BASE_URL = "https://sdmxv9jz-8081.brs.devtunnels.ms/";
+const BASE_URL = "https://sdmxv9jz-8081.brs.devtunnels.ms";
 
 
 async function safeFetch(url) {
