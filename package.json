@@ -7,7 +7,8 @@
     "dev": "cd locales-dashboard && npm run dev",
     "build": "cd locales-dashboard && npm install && npm run build",
     "preview": "cd locales-dashboard && npm run preview",
-    "install": "cd locales-dashboard && npm install"
+    "install": "cd locales-dashboard && npm install",
+    "render-build": "bash build.sh"
   },
   "engines": {
     "node": ">=18 <23"
