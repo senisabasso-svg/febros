@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ricardo-tomas-medicina-china
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: locales-dashboard/dist
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.0
