@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "node node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
-    "start": "vite preview --host 0.0.0.0 --port $PORT",
-    "serve": "npx serve dist -s -l $PORT"
+    "start": "npx serve dist -s -l $PORT",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
